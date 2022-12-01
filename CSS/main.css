@@ -104,7 +104,7 @@ h1{
 .journey{
     margin: 100px 0;
     display: inline;
-    padding: 3px;
+    padding: 4px;
     box-shadow: 3px 3px #64296b;
     font-weight: lighter;
 }
@@ -113,7 +113,7 @@ h1{
     /* grid-area: story; */
     width: 100vh;
     margin-left: 10vh;
-    margin-top: 15vh;
+    margin-top: 10vh;
     background-color: rgba(255,162,162,0.8);
     box-shadow: 8px 8px #64296b;
 }
