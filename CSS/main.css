@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+}
+span{
+    letter-spacing: 0em;
+}
+
+body, html{
+    background-color:rgb(106, 158, 160);
+    height: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#64296b;
+    text-align: center;
+}
+
+h1{
+    text-align:center;
+    font-size:70px;
+    margin-top: 1vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 35px;
+    text-shadow: 3px 3px rgba(255,162,162,0.8);  
+}
+
+.programmer{
+    text-shadow: 2px 2px rgba(255,162,162,0.8); 
+    font-size:x-large
+}
+
+.container_main{
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "photobox photobox photobox"
+    "photo story story"
+    "bottom_row bottom_row bottom_row"
+    
+    
+}
+
+.photobox{
+    margin: 3vh 0 0 33vh;
+    height: auto;
+    width: 135vh;
+    grid-area: photobox;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+    "marriage eit facepaint facepaint sedona"
+    "marriage schubas1 schubas1 wounded_city sedona"
+}
+
+#marriage{
+    position: relative;
+    grid-area: marriage;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 12vh; 
+    box-shadow: 0 8px rgba(255,162,162,0.8);
+}
+
+#eit{
+    position: relative;
+    grid-area: eit;
+    margin-top: 9.2vh;
+    width: 100%;
+    height: auto;
+}
+
+#facepaint{
+    grid-area: facepaint;
+    width: 100%;
+    margin-top: 0.5vh;
+}
+
+#wounded_city{
+    grid-area: wounded_city;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 8px rgba(255,162,162,0.8);
+}
+
+#sedona{
+    grid-area: sedona;
+    width: 100%;
+    height: auto;
+    margin-top:  5vh;
+    box-shadow: 0px 8px rgba(255,162,162,0.8);
+}
+
+#schubas1{
+    grid-area: schubas1;
+    width: 100%;
+    box-shadow: 0 8px rgba(255,162,162,0.8);
+}
+
+.journey{
+    margin: 100px 0;
+    display: inline;
+    padding: 3px;
+    box-shadow: 3px 3px #64296b;
+    font-weight: lighter;
+}
+
+.story{
+    /* grid-area: story; */
+    width: 100vh;
+    margin-left: 10vh;
+    margin-top: 15vh;
+    background-color: rgba(255,162,162,0.8);
+    box-shadow: 8px 8px #64296b;
+}
+
+.future{
+    /* grid-area: story; */
+    width: 80vh;
+    height: 35vh;
+    /* margin: 10vh 50vh 30vh 30vh; */
+    background-color: rgba(255,162,162,0.8);
+    box-shadow: 8px 8px #64296b;
+    /* grid-area: future;  */
+}
+
+.future_heading{
+    /* margin: 100px 0; */
+    display: inline;
+    padding: 3px;
+    /* text-decoration-line: underline; */
+    box-shadow: 3px 3px #64296b;
+    font-weight: lighter;
+}
+.text1{
+    
+    border: 2px black;
+    padding: 30px 15px 15px 15px;
+}
+
+#videos{
+    color: rgb(68, 68, 237);
+    text-decoration: none;
+}
+
+#ep{
+    color: rgb(68, 68, 237);
+    text-decoration: none;
+}
+
+#album{
+    color: rgb(68, 68, 237);
+    text-decoration: none;
+}
+
+.text2{
+    /* background-color: rgba(255,162,162,0.5); */
+    border: 2px black;
+    padding: 25px 15px 15px 15px;
+}
+
+.soloimage{
+    position: relative;
+    /* grid-area: photo; */
+    margin-top: 20vh;
+    margin-left: 20vh;
+}
+
+.lincolnhall{
+    height: 50vh;
+    border: 2px #64296b;
+    box-shadow: 5px 5px rgba(255,162,162,0.8);
+}
+
+.connect{
+    padding: 4vh;
+    margin-top: 0.5vh;
+    margin-left: 10vh;
+    border-radius: 3px;
+    border: 2px #64296b;
+    background-color: #64296b;
+    box-shadow: 6px 6px rgba(255,162,162,0.8);
+}
+
+#connect{
+    color: rgba(255,162,162,0.8);
+    text-shadow: 2px 2px black;
+}
+
+button{
+    style
+}
+
+#bottom_row{
+    margin-top: 6vh;
+    position:relative;
+    grid-area: bottom_row;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 40vh;
+
+}
+
+footer{
+    position: absolute;
+    right: 0vh;
+    bottom: -135vh;
+    background-color: rgb(52, 117, 120);
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 0;
+    }
+    
+    footer hr{
+        margin-top:0px;
+        height:12px;
+        border: 0px;
+        box-shadow: inset 0 12px 12px -12px #64296b;  
+    }
+
+
+
